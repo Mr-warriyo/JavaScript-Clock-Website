@@ -24,7 +24,7 @@ function updateTheTime(){
     
 
 
-    Timep.innerHTML = `Current Time is: ${hours} : ${minutes} : ${seconds} : ${MilliSeconds} ${newformat} on ${Dat} of ${month}, ${year} (${day})`; 
+    Timep.innerHTML = `Current Time is: ${hours} : ${minutes} : ${seconds} : ${MilliSeconds} ${newformat} <br> on ${Dat} of ${month}, ${year} (${day})`; 
 
 } 
 setInterval(updateTheTime, 1);
